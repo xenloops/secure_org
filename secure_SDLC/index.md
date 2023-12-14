@@ -14,10 +14,10 @@
 * Requirements
   * Risk assessment
     * Identify assets and requirements
-    * 
+    * Review periodically
 * Design
   * Threat modeling
-    * Identify threats
+    * Identify threats and potential controls
   * Design review
 * Implementation
   * Secure coding checklists
