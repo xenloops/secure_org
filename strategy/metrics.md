@@ -4,7 +4,7 @@ Assessing a typical application security program involves tracking key metrics a
 
 Each metric should be well-documented, including a description of the sources, measurement coverage, and guidance on its use to explain application security trends. Metrics that are frequently measured, easy or inexpensive to gather, and expressed as a cardinal number or a percentage are best to gather. Metrics should be publicly published by Application security and development teams.
 
-KPIs can be developed after enough data is gathered from the metrics to make informed choices to establish realistic objectives. These should be developed with input from the AppSec team and buy-in from leadership. KPIs should be available to the application teams and include acceptability thresholds and guidance in case teams need to take action. KPIs should be reviewed at least annually for their effectiveness and efficiency. Well-defined KPIs make success of the application security program clearly visible.
+KPIs can be developed after enough data is gathered from the metrics to make informed choices to establish realistic objectives. These should be developed with input from the AppSec team and buy-in from leadership. KPIs should be available to the application teams and include acceptability thresholds and guidance in case teams need to act. KPIs should be reviewed at least annually for their effectiveness and efficiency. Well-defined KPIs make success of the application security program clearly visible.
 
 Ideally, KPIs and metrics ultimately trigger most changes to the application security strategy.
 
