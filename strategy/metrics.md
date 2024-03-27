@@ -48,7 +48,7 @@ Since a new AppSec program must pick-and-choose what it does, these are essentia
 
 ## Should-haves
 
-Once the basic metrics are in place and a historical view is constructed, these provide finer-tuned insight into the AppSec program.
+Once the basic metrics are in place and the AppSec program matures, these provide finer-tuned insight into the AppSec program.
 
 ### Rate of New Vulnerabilities
 * Metric: Number of new vulnerabilities discovered over time.
