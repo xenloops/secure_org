@@ -26,7 +26,7 @@ Since a new AppSec program must pick-and-choose what it does, these are essentia
 * Metric: Distribution of vulnerabilities based on severity level (i.e. low, medium, high, critical).
 * Rationale: Shows how much risk organization is exposed to by custom software.
 * Report: Numbers by application/team and in aggregate.
-* Sources: Custom code scanning tools.
+* Sources: Security scanning tools.
 * Frequency: Weekly.
 * KPI: Prioritize fixing high and critical severity vulnerabilities to reduce the overall risk exposure.
 
