@@ -32,7 +32,7 @@ Since a new AppSec program must pick-and-choose what it does, these are essentia
 
 ### Third-Party Risk Metrics
 * Metric: Assessment of security risks associated with external packages/dependencies.
-* Rationale: Shows how many new vulnerabilites are introduced by third-party software.
+* Rationale: Shows how many new vulnerabilities are introduced by third-party software.
 * Report: Numbers by application/team and in aggregate.
 * Sources: Dependency scanning tools.
 * Frequency: Monthly.
@@ -52,7 +52,7 @@ Once the basic metrics are in place and a historical view is constructed, these 
 
 ### Rate of New Vulnerabilities
 * Metric: Number of new vulnerabilities discovered over time.
-* Rationale: Shows how many new vulnerabilites introduced by custom software.
+* Rationale: Shows how many new vulnerabilities introduced by custom software.
 * Report: Numbers by application/team and in aggregate.
 * Sources: Custom code scanning tools.
 * Frequency: Weekly.
