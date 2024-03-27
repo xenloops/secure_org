@@ -1,10 +1,14 @@
 # Application Security Program Metrics
 
-Assessing a typical application security program involves tracking key metrics and Key Performance Indicators (KPIs) to measure its effectiveness, identify areas for improvement, and demonstrate the program's impact on reducing security risks. These metrics and KPIs provide a holistic view of the effectiveness, performance, and impact of an application security program. Regularly monitoring and analyzing these metrics can help organizations make data-driven decisions, prioritize security efforts, and continuously improve their overall security posture. A prioritized list of key metrics and KPIs to consider:
+Assessing a typical application security program involves tracking key metrics and Key Performance Indicators (KPIs) to measure its effectiveness, identify areas for improvement, and demonstrate the program's impact on reducing security risks. These metrics and KPIs provide a holistic view of the effectiveness, performance, and impact of an application security program. Regularly monitoring and analyzing these metrics can help organizations make data-driven decisions, prioritize security efforts, and continuously improve their overall security posture. 
+
+KPIs can be developed after enough data is gathered from the metrics to make informed choices to establish realistic objectives. These should be developed with input from the AppSec team and buy-in from leadership. These measures should be visible to the teams responsible for software development and thoroughly documented. KPIs should be reviewed at least annually for their effectiveness and efficiency.
+
+A prioritized list of key metrics and KPIs to consider:
 
 ## Must-haves
 
-Since a new AppSec program must pick-and-choose what it does, these are essential metrics to help see the needle moving early on that won't break a small team.
+Since a new AppSec program must pick-and-choose what it does, these are essential metrics to help see the needle moving early on that are relatively easy to gather and won't break a small team.
 
 ### Code Coverage
 * Metric: Percentage of code covered by security testing tools (SAST, DAST, IAST, etc.).
@@ -21,14 +25,6 @@ Since a new AppSec program must pick-and-choose what it does, these are essentia
 * Sources: Custom code scanning tools.
 * Frequency: Weekly.
 * KPI: Prioritize fixing high and critical severity vulnerabilities to reduce the overall risk exposure.
-
-### Rate of New Vulnerabilities
-* Metric: Number of new vulnerabilities discovered over time.
-* Rationale: Shows how many new vulnerabilites introduced by custom software.
-* Report: Numbers by application/team and in aggregate.
-* Sources: Custom code scanning tools.
-* Frequency: Weekly.
-* KPI: Aim to reduce the rate of new vulnerabilities by implementing proactive security measures and continuous improvement practices.
 
 ### Third-Party Risk Metrics
 * Metric: Assessment of security risks associated with external packages/dependencies.
@@ -48,6 +44,16 @@ Since a new AppSec program must pick-and-choose what it does, these are essentia
 
 ## Should-haves
 
+Once the basic metrics are in place and a historical view is constructed, these provide finer-tuned insight into the AppSec program.
+
+### Rate of New Vulnerabilities
+* Metric: Number of new vulnerabilities discovered over time.
+* Rationale: Shows how many new vulnerabilites introduced by custom software.
+* Report: Numbers by application/team and in aggregate.
+* Sources: Custom code scanning tools.
+* Frequency: Weekly.
+* KPI: Aim to reduce the rate of new vulnerabilities by implementing proactive security measures and continuous improvement practices.
+
 ### Remediation latency
 * Metric: Average time taken to remediate identified vulnerabilities.
 * Rationale: Shows how long vulnerabilities are in environment once known.
@@ -60,14 +66,13 @@ Since a new AppSec program must pick-and-choose what it does, these are essentia
 * Metric: Security controls and practices compliant with applicable industry standards and regulations.
 * Rationale: Shows compliance with applicable regulations.
 * Report: Percentage.
-* Sources: Security SMEs.
+* Sources: Security and GRC SMEs.
 * Frequency: Annually.
 * KPI: Maintain a high level of compliance adherence to meet regulatory requirements and mitigate legal risks.
 
-
-
-
 ## Nice-to-haves
+
+These take more work to calculate, but give insight into how well the AppSec program is working.
 
 ### False Positive Rate
 * Metric: Percentage of reported vulnerabilities that are false positives.
