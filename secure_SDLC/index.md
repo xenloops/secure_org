@@ -21,17 +21,20 @@
   * Design review
 * Implementation
   * Secure coding checklists
-  * 
   * Static analysis (SAST)
   * Software Component/Composition Analysis (SCA)
   * API analysis
 * Testing
   * Dynamic testing (DAST)
+  * Fuzz testing
   * Secrets scanning
   * Code review
 * Release
   * Security assessment
   * Secure configuration
-* Maintenance
+* Ongoing maintenance / periodic testing
   * Operational assurance
+  * Interactive Application Security Testing (IAST)
+  * SCA rescans (new CVEs always released)
+  * SAST/DAST rescans (when vendor releases new rules)
 
