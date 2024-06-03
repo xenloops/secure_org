@@ -1,43 +1,55 @@
 # Maturing the Security Program
 
-These are tasks that should be undertaken to reach the three maturity levels according to the [OWASP SAMM](https://owaspsamm.org). In fact, these are largely taken from the SAMM, rephrased from questions to statements.
+The [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org) is an open, customizable framework which helps organizations analyze their current software security practices, build a security program in defined iterations, show progressive improvements in secure practices, and define and measure security-related activities. This provides a means of knowing where an organization is on its journey towards software assurance and understanding what is needed to move to the next level of maturity.
+
+The SAMM does not insist that all organizations achieve the maximum maturity level in every category. Each organization can determine the target maturity level for each Security Practice that is the best fit, and adapt the available templates for their specific needs.
+
+## Structure
+
+The SAMM is built around 15 security practices grouped into five business functions. Each practice contains a set of activities, structured into three maturity levels. The activities of a lower maturity level are typically easier to execute and require less formalization than the ones of a higher maturity level. These activities as shown below are taken from the [SAMM tool](https://github.com/owaspsamm/core/releases/latest).
+
+## Process
+The SAMM questionaire applies values to responses so an approximate maturity can be assessed, and roadmap or guide created. These answers range from an activity is not performed to "for most or all" of whatever the activity applies to as appropriate. The answers should be reviewed periodically and maturity reassessed.
+
+## Activities
+Following are the activities for each of the 15 practices. More detail is available in the SAMM tool itself.
 
 # Governance
 ## Strategy and Metrics
 ### Create and Promote
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you understand the enterprise-wide risk appetite for your applications? |
 | 2 | Do you have a strategic plan for application security and use it to make decisions? |
 | 3 | Do you regularly review and update the Strategic Plan for Application Security? |
 ### Measure and Improve
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you use a set of metrics to measure the effectiveness and efficiency of the application security program across applications? |
 | 2 | Did you define Key Performance Indicators (KPI) from available application security metrics? |
 | 3 | Do you update the Application Security strategy and roadmap based on application security metrics and KPIs? |
 ## Policy and Compliance
 ### Policy and Standards
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you have and apply a common set of policies and standards throughout your organization? |
 | 2 | Do you publish the organization's policies as test scripts or run-books for easy interpretation by development teams? |
 | 3 | Do you regularly report on policy and standard compliance, and use that information to guide compliance improvement efforts? |
 ### Compliance Management
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you have a complete picture of your external compliance obligations? |
 | 2 | Do you have a standard set of security requirements and verification procedures addressing the organization's external compliance obligations? |
 | 3 | Do you regularly report on adherence to external compliance obligations and use that information to guide efforts to close compliance gaps? |
 ## Education and Guidance
 ### Training and Awareness
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you require employees involved with application development to take SDLC training? |
 | 2 | Is training customized for individual roles such as developers, testers, or security champions? |
 | 3 | Have you implemented a Learning Management System or equivalent to track employee training and certification processes? |
 ### Organization and Culture
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Have you identified a Security Champion for each development team? |
 | 2 | Does the organization have a Secure Software Center of Excellence (SSCE)? |
@@ -46,39 +58,39 @@ These are tasks that should be undertaken to reach the three maturity levels acc
 # Design
 ## Threat Assessment
 ### Application Risk Profile
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you classify applications according to business risk based on a simple and predefined set of questions? |
 | 2 | Do you use centralized and quantified application risk profiles to evaluate business risk? |
 | 3 | Do you regularly review and update the risk profiles for your applications? |
 ### Threat Modeling
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you identify and manage architectural design flaws with threat modeling? |
 | 2 | Do you use a standard methodology, aligned on your application risk levels? |
 | 3 | Do you regularly review and update the threat modeling methodology for your applications? |
 ## Security Requirements
 ### Software Requirements
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do project teams specify security requirements during development? |
 | 2 | Do you define, structure, and include prioritization in the artifacts of the security requirements gathering process? |
 | 3 | Are vendors aligned with standard security controls and software development tools and processes that the organization utilizes? |
 ### Supplier Security
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do stakeholders review vendor collaborations for security requirements and methodology? |
 | 2 | Do vendors meet the security responsibilities and quality measures of service level agreements defined by the organization? |
 | 3 | Are vendors aligned with standard security controls and software development tools and processes that the organization utilizes? |
 ## Secure Architecture
 ### Architecture Design
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do teams use security principles during design? |
 | 2 | Do you use shared security services during design? |
 | 3 | Do you base your design on available reference architectures? |
 ### Technology Management
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you evaluate the security quality of important technologies used for development? |
 | 2 | Do you have a list of recommended technologies for the organization? |
@@ -87,13 +99,13 @@ These are tasks that should be undertaken to reach the three maturity levels acc
 # Implementation
 ## Secure Build
 ### Build Process
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Is your full build process formally described? |
 | 2 | Is the build process fully automated? |
 | 3 | Do you enforce automated security checks in your build processes? |
 ### Software Dependencies
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you have solid knowledge about dependencies you're relying on? |
 | 2 | Do you handle 3rd party dependency risk by a formal process? |
@@ -101,13 +113,13 @@ These are tasks that should be undertaken to reach the three maturity levels acc
 
 ## Secure Deployment
 ### Deployment Process
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you use repeatable deployment processes? |
 | 2 | Are deployment processes automated and employing security checks? |
 | 3 | Do you consistently validate the integrity of deployed artifacts? |
 ### Secret Management
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you limit access to application secrets according to the least privilege principle? |
 | 2 | Do you inject production secrets into configuration files during deployment? |
@@ -115,13 +127,13 @@ These are tasks that should be undertaken to reach the three maturity levels acc
 
 ## Defect Management
 ### Defect Tracking
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you track all known security defects in accessible locations? |
 | 2 | Do you keep an overview of the state of security defects across the organization? |
 | 3 | Do you enforce SLAs for fixing security defects? |
 ### Metrics and Feedback
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you use basic metrics about recorded security defects to carry out quick win improvement activities? |
 | 2 | Do you improve your security assurance program upon standardized metrics? |
@@ -130,39 +142,39 @@ These are tasks that should be undertaken to reach the three maturity levels acc
 # Verification
 ## Architecture Assessment
 ### Architecture Validation
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you review the application architecture for key security objectives on an ad-hoc basis? |
 | 2 | Do you regularly review the security mechanisms of your architecture? |
 | 3 | Do you regularly review the effectiveness of the security controls? |
 ### Architecture Mitigation
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you review the application architecture for mitigations of typical threats on an ad-hoc basis? |
 | 2 | Do you regularly evaluate the threats to your architecture? |
 | 3 | Do you regularly update your reference architectures based on architecture assessment findings? |
 ## Requirements Testing
 ### Control Verification
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you test applications for the correct functioning of standard security controls? |
 | 2 | Do you consistently write and execute test scripts to verify the functionality of security requirements? |
 | 3 | Do you automatically test applications for security regressions? |
 ### Misuse/Abuse Testing
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you test applications using randomization or fuzzing techniques? |
 | 2 | Do you create abuse cases from functional requirements and use them to drive security tests? |
 | 3 | Do you perform denial of service and security stress testing? |
 ## Security Testing
 ### Scalable Baseline
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you scan applications with automated security testing tools? |
 | 2 | Do you customize the automated security tools to your applications and technology stacks? |
 | 3 | Do you integrate automated security testing into the build and deploy process? |
 ### Deep Understanding
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you manually review the security quality of selected high-risk components? |
 | 2 | Do you perform penetration testing for your applications at regular intervals? |
@@ -171,39 +183,39 @@ These are tasks that should be undertaken to reach the three maturity levels acc
 # Operations
 ## Incident Management
 ### Incident Detection
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you analyze log data for security incidents periodically? |
 | 2 | Do you follow a documented process for incident detection? |
 | 3 | Do you review and update the incident detection process regularly? |
 ### Incident Response
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you respond to detected incidents? |
 | 2 | Do you use a repeatable process for incident handling? |
 | 3 | Do you have a dedicated incident response team available? |
 ## Environment Management
 ### Configuration Hardening
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you harden configurations for key components of your technology stacks? |
 | 2 | Do you have hardening baselines for your components? |
 | 3 | Do you monitor and enforce conformity with hardening baselines? |
 ### Patching and Updating
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you identify and patch vulnerable components? |
 | 2 | Do you follow an established process for updating components of your technology stacks? |
 | 3 | Do you regularly evaluate components and review patch level status? |
 ## Operational Management
 ### Data Protection
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you protect and handle information according to protection requirements for data stored and processed on each application? |
 | 2 | Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations? |
 | 3 | Do you regularly review and update the data catalog and your data protection policies and procedures? |
 ### System Decommissioning / Legacy Management
-| Level | Task |
+| Level | Activity |
 |:--:|--|
 | 1 | Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported? |
 | 2 | Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services? |
