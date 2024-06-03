@@ -168,98 +168,45 @@ These are tasks that should be undertaken to reach the three maturity levels acc
 | 2 | Do you perform penetration testing for your applications at regular intervals? |
 | 3 | Do you use the results of security testing to improve the development lifecycle? |
 
-#
-##
-### 
+# Operations
+## Incident Management
+### Incident Detection
 | Level | Task |
 |:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-### 
+| 1 | Do you analyze log data for security incidents periodically? |
+| 2 | Do you follow a documented process for incident detection? |
+| 3 | Do you review and update the incident detection process regularly? |
+### Incident Response
 | Level | Task |
 |:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
+| 1 | Do you respond to detected incidents? |
+| 2 | Do you use a repeatable process for incident handling? |
+| 3 | Do you have a dedicated incident response team available? |
+## Environment Management
+### Configuration Hardening
+| Level | Task |
+|:--:|--|
+| 1 | Do you harden configurations for key components of your technology stacks? |
+| 2 | Do you have hardening baselines for your components? |
+| 3 | Do you monitor and enforce conformity with hardening baselines? |
+### Patching and Updating
+| Level | Task |
+|:--:|--|
+| 1 | Do you identify and patch vulnerable components? |
+| 2 | Do you follow an established process for updating components of your technology stacks? |
+| 3 | Do you regularly evaluate components and review patch level status? |
+## Operational Management
+### Data Protection
+| Level | Task |
+|:--:|--|
+| 1 | Do you protect and handle information according to protection requirements for data stored and processed on each application? |
+| 2 | Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations? |
+| 3 | Do you regularly review and update the data catalog and your data protection policies and procedures? |
+### System Decommissioning / Legacy Management
+| Level | Task |
+|:--:|--|
+| 1 | Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported? |
+| 2 | Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services? |
+| 3 | Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end of life? |
 
-##
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
 
-##
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-
-##
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-##
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-##
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-##
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
-### 
-| Level | Task |
-|:--:|--|
-| 1 |  |
-| 2 |  |
-| 3 |  |
