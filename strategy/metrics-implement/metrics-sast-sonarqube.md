@@ -68,7 +68,7 @@ Perform a substring on ```lastAnalysisDate``` to get just the date.
 
 Once you have the list of projects and list of metrics, it's time to get what you need out of SonarQube. Keep in mind that each of these API calls are project-specific, so to get everything just make the calls in a loop iterating over the projects.
 
-For this section, let's further lessen the keystrokes needed by substituting ```[SQ_API_URL]/measures/component?component=[PROJECT_KEY]``` with ```SQ_API_PROJ``` since all these project-specific metrics endpoints start the same.
+For this section, let's further lessen the keystrokes needed by substituting ```[SQ_API_URL]/measures/component?component=[PROJECT_KEY]``` for ```SQ_API_PROJ``` since all these project-specific metrics endpoints start the same.
 
 #### Vulnerabilities
 
