@@ -1,6 +1,6 @@
 # SonarQube metrics
 
-SonarQube has a well-docmumented API that lends itself to extracting a wide range of metrics without needing to go through the UI. Keep in mind, of course, that the API will only expose data that you would be able to reach through the UI given your login or API key permissions. All data are returned in JSON.
+SonarQube has a well-documented API that lends itself to extracting a wide range of metrics without needing to go through the UI. Keep in mind, of course, that the API will only expose data that you would be able to reach through the UI given your login or API key permissions. All data are returned in JSON.
 
 The application is documented for various versions at the following links:
 * [9.9 LTA](https://docs.sonarsource.com/sonarqube/9.9)
