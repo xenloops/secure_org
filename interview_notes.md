@@ -8,7 +8,7 @@ When interviewing for a security position, it’s important to ask questions tha
     * How does the team triage security vulnerabilities in applications and infrastructure?
 * **Program evolution and investment**
     * Do you regularly assess the current state of the AppSec program and adopt new tools/frameworks to cover the program’s needs?
-    * What are the biggest challenges AppSec is facing?
+    * What are the biggest challenges AppSec faces?
     * How does the company support ongoing education and certification in security?
     * What are the long-term goals for AppSec?
     * How does the organization adapt to evolving threats in the security landscape?
