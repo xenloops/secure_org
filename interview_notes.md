@@ -2,7 +2,7 @@ When interviewing for a security position, it’s important to ask questions tha
 
 * **Team Structure and Dynamics**
     * Can you describe the structure of the security team and how this role fits within it?
-    * Is there a process for collaboration between AppSec and other departments, such as development and operations?
+    * Is there a process for collaboration between AppSec and other departments, like development and operations?
 * **Security Practices**
     * What security frameworks or methodologies does the team currently follow (e.g., OWASP, NIST)?
     * How does the team triage security vulnerabilities in applications and infrastructure?
