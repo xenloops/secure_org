@@ -13,8 +13,8 @@ When interviewing for a security position, it’s important to ask questions tha
     * What are the long-term goals for AppSec?
     * How does the organization adapt to evolving threats in the security landscape?
 * **Expectations for the Role**
-    * What are the immediate priorities for this role in the first six months? or What are your success criteria for this role in the first six months?
-    * What qualities do you think are essential for someone to succeed as an AppSec here?
+    * What are your success criteria for this role in the first six months? or What are the immediate priorities for this role in the first six months?
+    * What qualities do you think are essential for someone to succeed in AppSec here?
 * **Security culture**
     * How does the company promote security awareness among developers and others?
     * How does the company’s culture support security initiatives and encourage team collaboration?
